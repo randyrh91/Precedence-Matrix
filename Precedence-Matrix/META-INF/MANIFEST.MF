@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PrecedenceMatrix-Node extension for KNIME Workbench
+Bundle-SymbolicName: org.knime.rankaggregation.precedencematrix;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: precedencematrix.jar
+Bundle-Activator: org.knime.rankaggregation.PrecedenceMatrixNodePlugin
+Bundle-Vendor: UM and CUJAE
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base,
+ org.knime.core
+Bundle-ActivationPolicy: lazy
+Export-Package: org.knime.rankaggregation
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.knime.rankaggregation.precedencematrix
